@@ -3,55 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hourvari Capital</title>
+    <title>Hourvari Capital | L&apos;Investissement au Service de l&apos;Innovation de Demain</title>
+    <meta name="description" content="Hourvari Capital - L&apos;Investissement au Service de l&apos;Innovation de Demain">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* Reset de la mise en page */
-        * {
+        body, html {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
         }
-
-        /* Corps de la page */
-        body {
-            background-color: black;
-            color: white;
-            font-family: 'Arial', sans-serif; /* Typographie moderne */
-            height: 100vh;
+        .container {
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
+            min-height: 100vh;
+            background-color: black;
+        }
+        .content {
+            background-color: black;
+            color: white;
+            padding: 2rem;
             text-align: center;
-            padding: 20px;
+            max-width: 80%;
+            border: 1px solid white;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
         }
-
-        /* Style du titre */
         h1 {
-            font-size: 4rem; /* Taille du titre */
-            font-family: 'Helvetica Neue', sans-serif; /* Typographie moderne */
-            font-weight: bold;
-            margin-bottom: 20px;
+            font-size: 2.8rem;
+            margin-bottom: 0.375rem;
+            font-weight: 700;
         }
-
-        /* Ligne sous le titre */
-        .line {
-            width: 100px;
-            height: 4px;
-            background-color: white;
-            margin-bottom: 20px;
-        }
-
-        /* Style de la base line */
         p {
-            font-size: 1.5rem;
-            max-width: 600px;
+            font-size: 1.1rem;
+            max-width: 30rem;
             line-height: 1.5;
+            margin: 0 auto;
+            font-weight: 400;
+        }
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 3.8rem;
+            }
+            p {
+                font-size: 1.4rem;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Hourvari Capital</h1>
+    <div class="container">
+        <div class="content">
+            <h1>Hourvari Capital</h1>
+            <p>Investir - Innover - Impacter</p>
+        </div>
+    </div>
+</body>
+</html>
     <div class="line"></div>
     <p>L'Investissement au Service de l'Innovation de Demain</p>
 </body>
