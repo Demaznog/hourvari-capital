@@ -1,1 +1,20 @@
-<!DOCTYPE html> <html lang="fr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Hourvari</title> </head> <body> <h1>Bienvenue sur mon site web !</h1> <p>Ceci est une page simple créée avec HTML.</p> </body> </html>
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Hourvari Capital | Holding d\'investissement',
+  description: 'Hourvari Capital - Holding d\'investissement pour des projets de développement',
+}
+
+export default function HomePage() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white text-center">
+      <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        Hourvari Capital
+      </h1>
+      <div className="w-16 h-0.5 bg-white mb-4"></div>
+      <p className="text-lg md:text-xl max-w-md">
+        Holding d'investissement pour des projets de développement
+      </p>
+    </div>
+  )
+}
